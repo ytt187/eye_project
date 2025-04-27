@@ -1,5 +1,5 @@
 torch==2.4.0
-torchvision==0.18.1+cu118
+torchvision==0.18.1
 efficientnet_pytorch==0.7.1
 numpy==1.26.4
 opencv-python==4.11.0.86
