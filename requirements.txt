@@ -1,4 +1,4 @@
-torch==2.0.1+cpu
+torch==2.4.0+cpu
 torchvision==0.15.2+cpu
 efficientnet_pytorch==0.7.1
 numpy==1.26.4
