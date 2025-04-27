@@ -7,7 +7,9 @@ dependencies:
   - numpy==1.26.4
   - torch==2.4.0+cu118
   - torchvision==0.19.0+cu118
-  - opencv-python==4.11.0.86
+  - pip
+  - pip:
+    - opencv-python==4.11.0.86
   - Pillow==10.3.0
   - scikit-learn==1.6.1
   - scipy==1.15.2
