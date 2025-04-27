@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "PYTHON_VERSION": "3.9",
+      "PYTHON_VERSION": "3.11.5",
       "PIP_EXTRA_INDEX_URL": "https://download.pytorch.org/whl/cpu"
     }
   }
