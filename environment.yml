@@ -1,18 +1,22 @@
-name:eye_project
-channels:
+name: eye_project
+channels: 
   - defaults
+  - conda-forge
 dependencies:
   - python=3.11.5
   - numpy==1.26.4
   - torch==2.4.0+cu118
   - torchvision==0.19.0+cu118
-  - efficientnet_pytorch==0.7.1
-  - opencv-python==4.11.0.86
+  - pip
+  - pip:
+    - opencv-python==4.11.0.86
   - Pillow==10.3.0
   - scikit-learn==1.6.1
   - scipy==1.15.2
   - tqdm==4.67.1
   - matplotlib==3.10.0
-  - gradio==5.25.0
-  - gradio_client==1.8.0
+  - pip
+  - pip:
+    - gradio==5.25.0
+    - gradio_client==1.8.0
   - pyngrok==7.2.3 

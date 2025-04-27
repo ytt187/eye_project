@@ -645,6 +645,8 @@ if __name__ == "__main__":
     train_set = MedicalDataset(data_dir, transform, 'train')
     CLASS_NAMES = train_set.classes
     MODEL_PATH = "newbest_model.pth"
-    
+    # 禁用GPU（云环境可能无GPU）
+    import os
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
     system = ContestSystem(MODEL_PATH, CLASS_NAMES)
     system.launch()
