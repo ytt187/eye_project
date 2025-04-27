@@ -1,5 +1,5 @@
-torch==2.4.0
-torchvision==0.16.0
+torch==2.4.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision==0.17.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 efficientnet_pytorch==0.7.1
 numpy==1.26.4
 opencv-python-headless==4.8.1.78
