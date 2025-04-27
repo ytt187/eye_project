@@ -1,6 +1,7 @@
-name:eye_project
-channels:
+name: eye_project
+channels: 
   - defaults
+  - conda-forge
 dependencies:
   - python=3.11.5
   - numpy==1.26.4
